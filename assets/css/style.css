@@ -1,0 +1,100 @@
+body
+{
+    font-family: 'Minecraft';
+    text-shadow: 1px 1px 0 #3F3F3F;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/* Canvas */
+canvas
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* UI */
+.ui
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ui .boxed
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.ui .pause
+{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.ui .pause h1
+{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.ui .pause .controls
+{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.ui .pause .controls h3
+{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.ui .pause .controls p
+{
+    font-size: 15px;
+}
+
+.ui .info
+{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.ui .info p
+{
+    display: inline-block;
+}
+
+.ui .shortcuts
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.ui .shortcuts a
+{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.ui .shortcuts a.line
+{
+    text-decoration: line-through;
+}

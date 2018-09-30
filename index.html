@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#ffc40d">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffc40d">
+    <!-- build:css assets/css/style.min.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/minecraft.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- endbuild -->
+    <title>Minecraft Experience</title>
+</head>
+<body>
+    <div class="ui">
+        <div class="pause boxed" style="display: none">
+            <h1>Minecraft experience</h1>
+            <h2>by <a href="https://pierregrdl.fr" class="mc-green" title="Pierre GRDL" target="_blank">Pierre GRDL</a></h2>
+            <div class="controls">
+                <h3 class="mc-yellow">Controls</h3>
+                <p><span class="mc-gold">ZQSD</span> / <span class="mc-gold">WASD</span> or <span class="mc-gold">Up/Left/Down/Right</span> : Move</p>
+                <p><span class="mc-gold">Right click</span> or <span class="mc-gold">left click</span> : Interact/Pick up/Place</p>
+                <p><span class="mc-gold">M</span> : Toggle sounds</p>
+                <p><span class="mc-gold">Escape</span> : Toggle this menu</p>
+            </div>
+        </div>
+        <div class="info">
+            <p class="boxed">Loading ...</p>
+        </div>
+        <div class="shortcuts">
+            <a href="#" class="menu boxed">Menu (Esc)</a>
+            <a href="#" class="sound boxed">Sound (M)</a>
+        </div>
+    </div>
+    <div class="canvas-container"></div>
+    <!-- build:js assets/js/main.min.js -->
+    <script src="assets/lib/three.min.js"></script>
+    <script src="assets/lib/Tween.min.js"></script>
+    <script src="assets/lib/OBJLoader.js"></script>
+    <script src="assets/lib/firstPerson.js"></script>
+    <script src="assets/lib/EffectComposer.js"></script>
+    <script src="assets/lib/RenderPass.js"></script>
+    <script src="assets/lib/ShaderPass.js"></script>
+    <script src="assets/lib/CopyShader.js"></script>
+    <script src="assets/lib/ConvolutionShader.js"></script>
+    <script src="assets/lib/BloomBlendPass.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/AudioManager.js"></script>
+    <script src="assets/js/UI.js"></script>
+    <script src="assets/js/Controls.js"></script>
+    <script src="assets/js/Raycasting.js"></script>
+    <script src="assets/js/Hand.js"></script>
+    <script src="assets/js/Particules.js"></script>
+    <script src="assets/js/objects/CustomObject.js"></script>
+    <script src="assets/js/objects/Room.js"></script>
+    <script src="assets/js/objects/Chest.js"></script>
+    <script src="assets/js/objects/Bed.js"></script>
+    <script src="assets/js/objects/Poster.js"></script>
+    <script src="assets/js/objects/Doors.js"></script>
+    <script src="assets/js/objects/SimpleBlock.js"></script>
+    <script src="assets/js/objects/Furnace.js"></script>
+    <script src="assets/js/objects/Juxebox.js"></script>
+    <script src="assets/js/objects/Torch.js"></script>
+    <script src="assets/js/objects/Window.js"></script>
+    <script src="assets/js/items/CustomItem.js"></script>
+    <script src="assets/js/items/Steak.js"></script>
+    <script src="assets/js/items/Disc.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
